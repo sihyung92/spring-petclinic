@@ -38,6 +38,7 @@ CREATE TABLE owners (
   first_name VARCHAR(30),
   last_name  VARCHAR_IGNORECASE(30),
   address    VARCHAR(255),
+  age        INTEGER,
   city       VARCHAR(80),
   telephone  VARCHAR(20)
 );
